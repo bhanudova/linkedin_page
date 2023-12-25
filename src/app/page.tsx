@@ -113,6 +113,16 @@ export default function Home() {
               >
                 Post
               </li>
+              <li onClick={() => handleTabClick('Jobs')}
+                className={`cursor-pointer ${activeTab === 'Jobs' ? 'text-green-600 underline font-extrabold' : ''}`}
+              >
+                Jobs
+              </li>
+              <li onClick={() => handleTabClick('People')}
+                className={`cursor-pointer ${activeTab === 'People' ? 'text-green-600 underline font-extrabold' : ''}`}
+              >
+                People
+              </li>
             </ul>
           </div>
 
