@@ -1,6 +1,7 @@
 "use client"
 import Image from 'next/image';
 import Banner1 from '../../public/banner1.jpg';
+import profile from '../../public/profile.jpg';
 import { FaTelegramPlane } from 'react-icons/fa';
 import { useState } from 'react';
 
@@ -66,7 +67,7 @@ export default function Home() {
           </div>
           <div className='bg-white'>
             <div className='mt-[-4rem] w-fit ml-8 relative'>
-              <Image src={Banner1} className='w-[10rem] h-[10rem] object-cover rounded-full bg-white p-2' alt='Banner' />
+              <Image src={profile} className='w-[10rem] h-[10rem] object-cover rounded-full bg-white p-2' alt='Banner' />
             </div>
             <div className="mx-4 md:mx-10 py-4">
                 <h2 className='font-bold text-xl md:text-2xl'>CodeView</h2>
