@@ -63,7 +63,7 @@ export default function Home() {
       <div className='m-2 md:m-10'>
         <div>
           <div>
-            <Image src={Banner1} className='w-full h-[13rem] object-cover rounded-t-lg' alt='Banner' />
+            <Image src={Banner1} className='w-full h-[10rem] md:h-[13rem] object-cover rounded-t-lg' alt='Banner' />
           </div>
           <div className='bg-white'>
             <div className='mt-[-4rem] w-fit ml-8 relative'>
